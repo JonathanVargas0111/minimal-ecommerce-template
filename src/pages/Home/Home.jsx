@@ -1,0 +1,20 @@
+import React from 'react';
+import Footer from '../../components/Footer/Footer';
+import './Home.css';
+
+const Home = () => {
+  return (
+    <div className="home">
+      <header className="home-header">
+        <h1>Bienvenido a Minimal E-commerce</h1>
+        <p>La tienda perfecta para tus necesidades.</p>
+      </header>
+      <main className="home-main">
+        <p>Explora nuestros productos y disfruta de una experiencia de compra simple y eficiente.</p>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;
