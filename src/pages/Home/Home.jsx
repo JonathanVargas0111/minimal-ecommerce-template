@@ -14,7 +14,7 @@ const Home = () => {
         <p>Explora nuestros productos y disfruta de una experiencia de compra simple y eficiente.</p>
       </main>
       <Benefits/>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
