@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import './Home.css';
+import Benefits from '../../components/Benefits/Benefits';
 
 const Home = () => {
   return (
@@ -12,7 +13,8 @@ const Home = () => {
       <main className="home-main">
         <p>Explora nuestros productos y disfruta de una experiencia de compra simple y eficiente.</p>
       </main>
-      <Footer />
+      <Benefits/>
+      {/* <Footer /> */}
     </div>
   );
 };
