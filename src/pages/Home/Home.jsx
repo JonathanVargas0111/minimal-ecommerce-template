@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="home">
       <header className="home-header">
-        <h1>Bienvenido a Minimal E-commerce</h1>
+        <h1 className="home-title">Bienvenido a <span>Minimal E-commerce</span></h1>
         <p>La tienda perfecta para tus necesidades.</p>
       </header>
       <main className="home-main">
