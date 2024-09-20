@@ -20,7 +20,7 @@
 
 @media only screen and (min-width: 640px  ) {
   .home {
-    padding: 0;
+    padding: 2rem;
   }
 
   .home-title{
