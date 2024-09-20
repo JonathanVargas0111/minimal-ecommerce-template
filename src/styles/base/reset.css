@@ -1,0 +1,47 @@
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fontes base */
+  html {
+    font-size: 100%; /* Tamaño de fuente base */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Elimina el subrayado de enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Elimina los estilos por defecto de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Estilos para tablas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Estilos para imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para formularios */
+  button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
